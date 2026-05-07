@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>onchange Example</title>
+</head>
+<body>
+
+<input type="text" id="name" onchange="ch()">
+
+<p id="result"></p>
+
+<script>
+function ch() {
+    let value = document.getElementById("name").value='hi';
+    document.getElementById("result").innerHTML = value;
+}
+</script>
+</body>
+</html>
